@@ -1,0 +1,67 @@
+/* Restablece márgenes y rellenos */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Elimina el subrayado de los enlaces */
+a {
+  text-decoration: none;
+}
+
+/* Restablece los estilos de los encabezados */
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+}
+
+/* Elimina la apariencia del borde en los botones */
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+}
+
+/* Restablece los estilos de las listas */
+ul, ol {
+  list-style: none;
+}
+
+/* Elimina la separación predeterminada de las tablas */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Normaliza los estilos de los formularios */
+input,
+select,
+textarea {
+  background: none;
+  border: none;
+  font: inherit;
+  padding: 0;
+}
+
+/* Establece una tipografía predeterminada */
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+}
+
+/* Restablece el estilo de las imágenes */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Evita el desbordamiento del contenido en elementos HTML */
+html, body {
+  overflow-x: hidden;
+}

@@ -1,0 +1,65 @@
+body{
+    background-color: darkgoldenrod;
+}
+
+.title{
+    font-size: 3em;
+    color: aliceblue;
+
+}
+
+.logo{
+    width: 500px;
+    border-radius: 10%;
+}
+
+.cards{
+    border: 2px solid white;
+    width: fit-content;
+    padding: 1px 1em 1px 1em;
+    border-radius: 10%;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards:hover{
+    background-color: darkgray;
+}
+
+#principal{
+      font-size: 4.5rem;
+}
+
+#titulos{
+    border: 2px solid black;
+    width: 60vw;
+    margin: auto;
+    padding: 5em;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   text-shadow: 2px 2px 5px black;
+
+}
+
+#centrada{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em;
+}
+
+#cards-container{
+    background-color: goldenrod;
+    width: 80vw;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 5px solid bisque;
+    border-radius: 15px;
+    padding: 2em;
+    display: flex;
+    justify-content: space-around;
+}
